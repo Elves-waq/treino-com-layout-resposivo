@@ -791,6 +791,11 @@ header{
     font-weight: 600;
     margin-left: 15px;
 }
+.area-redes{
+    display: flex;
+    align-items: center;
+
+}
 .rede-area-logo a{
     display: inline-flex;
     text-decoration: none;
@@ -1143,6 +1148,190 @@ header{
 }
 .section-redes-line{
     max-width: 670px;
+}
+
+.section-map-info{
+    width:auto;
+
+}
+.section-map-area {
+    width: auto;
+}
+.section-map{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rodape-area {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+
+}
+.rodape-text{
+    margin: 30px;
+}
+.rodape-form {
+    margin: auto;
+}
+
+}
+
+/* responsividade do mobile */
+@media (max-width:450px) {
+    .logo{
+        margin-left: 30px;
+    }
+    
+    .menu-opener{
+        display: block;
+        width:45px;
+        margin-right: 30px;
+
+    }
+    
+    nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0,0,0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul{
+        flex-direction: column;
+
+    }
+
+    .menu li a{
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+
+    }
+    .menu li.active a{
+        border: 0;
+        color: #b28756;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner h2{
+        font-size: 17px;
+    }
+
+
+   .section-aboutus{
+       flex-direction: column;
+   }
+   .section-aboutus--left{
+       margin-left: 30px;
+       margin-right: 30px;
+       margin-bottom: 30px;
+   }
+   .section-aboutus--rigth{
+       width: auto;
+       margin-left: 30px;
+       margin-right: 30px;
+   }
+   .section-aboutus--rigth img{
+       width: 100%;
+   }
+   .section-services{
+      flex-wrap: wrap;  
+   }
+   .section-service{
+       min-width: 100%;
+       margin-bottom: 30px;
+       
+   }
+   .section-service:first-child{
+       border-left: 0;
+   }
+   .section-projects--filters{
+       margin-left: 30px;
+       margin-right: 30px;
+   }
+   .section-projects--photo{
+       width: 320px;
+   }
+   .section-projects--photoarea{
+       width: 300px;
+       height: 190px;
+   }
+    .section-team{
+        max-width: 280px;
+    }   
+
+    .section-empresas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-empresa{
+        margin-top: 15px;
+    }
+    .section-table-produt{
+        flex-wrap: wrap;
+    }
+    .section-produt{
+        width:calc(100% - 30px);    
+        margin-bottom: 30px;
+    }
+ 
+.section-premium .slidearea{
+    flex-direction: column;
+}
+.some-facts-area{
+    flex-wrap: wrap;
+}
+.some-facts-content {
+    width:calc(100% - 20px) ;
+
+}
+.section-redes-line{
+    max-width: 400px;
+    flex-direction: column;
+}
+.section-share-area{
+    margin-bottom: 15px;
+}
+.rede-area-logo{
+    flex-direction: initial;
+}
+
+.formulario-area form {
+    display: flex;
+    width: calc(100vw - 20px);
+    flex-direction: column;
+
+}
+.name{
+    width: 350px;
+    margin-bottom: 15px;
+}
+.email{
+    margin-top: 35px;
+    width: 350px;
+    margin-bottom: 15px;
+}
+.subject {
+    width: 350px;
+    margin-bottom: 15px;
+}
+.message{
+    width: 350px;
+    margin-bottom: 15px;
+}
+.bt-form{
+    margin: auto;
 }
 
 .section-map-info{
